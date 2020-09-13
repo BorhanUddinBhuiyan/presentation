@@ -4,8 +4,8 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
-  <meta name="description" content="Responsive Website design by Bootstrap" />
-  <meta name="keywords" content="website,grid,js,boostrap,html,css" />
+  <meta name="description" content="Responsive Website design" />
+  <meta name="keywords" content="website,js,jq,boostrap,html,css" />
   <meta name="author" content="Borhan Uddin Bhuiyan" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,9 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <!-- fonts awesome link -->
   <script src="https://kit.fontawesome.com/5d36bcb580.js" crossorigin="anonymous"></script>
-
   <!-- jq plugin css  -->
   <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="css/animate.css">
   <!-- Bootstrap CSS CDN-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
@@ -31,58 +31,43 @@
 
 <body>
   <!-- navbar start -->
-  <!--     <nav class="navigation">
-      <button type="button" class="navbar-toggler hamburger-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+  <nav class="contianer">
+    <div class="navbar navbar-expand-lg fixed-top nav-menu">
+      <a href="index.html" class=" mx-5 navbar-brand text-light logo">
+        Royal</a>
+      <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <div class="bg-light line line1"></div>
+        <div class="bg-light line line2"></div>
+        <div class="bg-light line line3"></div>
       </button>
-      <div class="bg-cover">
-        
+      <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link m-2 menu-item">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#writers" class="nav-link m-2 menu-item">Writers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#books" class="nav-link m-2 menu-item">books</a>
+          </li>
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link m-2 menu-item">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav> -->
-  <!-- navbar end -->
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top nav-menu">
-    <a href="index.html" class=" mx-5 navbar-brand text-light logo">
-      Royal</a>
-    <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
-      <div class="bg-light line line1"></div>
-      <div class="bg-light line line2"></div>
-      <div class="bg-light line line3"></div>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#gallery" class="nav-link m-2 menu-item">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a href="#writers" class="nav-link m-2 menu-item">Writers</a>
-        </li>
-        <li class="nav-item">
-          <a href="#books" class="nav-link m-2 menu-item">books</a>
-        </li>
-        <li class="nav-item">
-          <a href="#pricing" class="nav-link m-2 menu-item">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
-        </li>
-      </ul>
     </div>
   </nav>
   <!-- end of navbar -->
 
   <!-- header start -->
   <header class="d-flex align-items-center">
-    <!-- <div class="align-self-start position-absolute">
-      <a class="logo" href="index.html">
-        <img src="img/book_PNG51100.png" width="90" class="img-fluid mb-5 mt-4 ml-0 ml-5" alt="book"> Royal
-      </a>
-    </div> -->
     <div class="container">
       <div class="row">
         <div class="col text-center">
@@ -105,7 +90,7 @@
         </div>
       </div>
       <!-- common title end -->
-      <div class="row mb-4 first-row ">
+      <div class="row mb-4 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay=".5s">
         <div class="col-lg-3 col-sm-6 col-10 mx-auto">
           <a href="img/library01.jpg" data-lightbox="library" data-title="Clemmentinum, Prague">
             <img src="img/library01.jpg" class="img-thumbnail gallery-img" alt="library">
@@ -126,9 +111,8 @@
             <img src="img/library04.jpg" class="img-thumbnail gallery-img" alt="library">
           </a>
         </div>
-
       </div>
-      <div class="row mb-5 second-row ">
+      <div class="row mb-4 wow slideInRight" data-wow-duration="1.5s" data-wow-delay=".5s">
         <div class="col-lg-3 col-sm-6 col-10 mx-auto">
           <a href="img/library05.jpg" data-lightbox="library" data-title="Bibliotheca Alexandrina,Alexwndria, Egypt">
             <img src="img/library05.jpg" class="img-thumbnail gallery-img" alt="library">
@@ -149,7 +133,6 @@
             <img src="img/library08.jpg" class="img-thumbnail gallery-img" alt="library">
           </a>
         </div>
-
       </div>
     </div>
   </section>
@@ -320,7 +303,7 @@
                 <p><del>$50</del></p>
                 <a href="#" class="btn btn-outline-danger px-4 ">Buy Now</a>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
 
@@ -336,13 +319,13 @@
               By <a href="#">Miguel de Cervantes</a>
             </div>
             <div class="back">
-            <div class="back-content">
-              <h2 class="text-uppercase  text-success">only for</h2>
-              <h3 class="mb-3">$30</h3>
-              <p><del>$60</del></p>
-              <a href="#" class="btn btn-outline-danger px-4 ">Buy Now</a>
+              <div class="back-content">
+                <h2 class="text-uppercase  text-success">only for</h2>
+                <h3 class="mb-3">$30</h3>
+                <p><del>$60</del></p>
+                <a href="#" class="btn btn-outline-danger px-4 ">Buy Now</a>
+              </div>
             </div>
-          </div> 
           </div>
         </div>
 
@@ -358,13 +341,13 @@
               By <a href="#">Gabriel García Márquez</a>
             </div>
             <div class="back">
-            <div class="back-content">
-              <h2 class="text-uppercase  text-success">only for</h2>
-              <h3 class="mb-3">$20</h3>
-              <p><del>$50</del></p>
-              <a href="#" class="btn btn-outline-danger px-4 ">Buy Now</a>
+              <div class="back-content">
+                <h2 class="text-uppercase  text-success">only for</h2>
+                <h3 class="mb-3">$20</h3>
+                <p><del>$50</del></p>
+                <a href="#" class="btn btn-outline-danger px-4 ">Buy Now</a>
+              </div>
             </div>
-          </div> 
           </div>
         </div>
       </div>
@@ -487,13 +470,14 @@
   </footer>
   <!-- end of footer -->
 
-
   <!-- jQuery first, then Popper.js, then Bootstrap JS CDN-->
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
   <!-- jq plugin -->
   <script src="js/lightbox.min.js"></script>
+  <script src="js/wow.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvpaoxMfooAo"
     crossorigin="anonymous"></script>

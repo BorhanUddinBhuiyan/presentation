@@ -1,3 +1,5 @@
+new WOW().init();
+
 $(document).ready(function () {
   // navbar
   $('.nav-button').click(function() {
@@ -14,12 +16,6 @@ $(document).ready(function () {
       $('.line').removeClass('custom-line');
     }
   });
-  // // humburger menu
-
-  // $('.hamburger-menu').click(function() {
-  //   $('.hamburger-menu').toggleClass('change');
-  // });
-
   // lightbox plugin
   lightbox.option({
     'resizeDuration': 200,
@@ -46,6 +42,5 @@ $(document).ready(function () {
       );
     }
   })
-
-
+  
 });
