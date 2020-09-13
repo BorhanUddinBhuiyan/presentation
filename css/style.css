@@ -16,11 +16,6 @@ body{
   text-decoration: none;
   text-transform: capitalize;
 }
-.logo:hover{
-  color: #fff; 
-  text-decoration:none;
-}
-
 .menu-item {
   font-size: 16px;
   letter-spacing: 1px;
@@ -42,7 +37,9 @@ body{
   margin: 5px;
   transition: all .4s;
 }
-
+.nav-menu2{
+  background: linear-gradient(rgba(0, 0, 0, .98), rgba(0, 0, 0, .9));
+}
 .change .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }

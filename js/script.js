@@ -3,7 +3,9 @@ new WOW().init();
 $(document).ready(function () {
   // navbar
   $('.nav-button').click(function() {
+    $('.nav-menu').toggleClass('nav-menu2');
     $('.nav-button').toggleClass('change');
+
   });
 
   $(window).scroll(function() {
