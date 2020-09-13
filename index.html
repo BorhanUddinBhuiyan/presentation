@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="description" content="Responsive Website design by Bootstrap" />
+  <meta name="keywords" content="website,grid,js,boostrap,html,css" />
+  <meta name="author" content="Borhan Uddin Bhuiyan" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <!-- fonts awesome link -->
+  <script src="https://kit.fontawesome.com/5d36bcb580.js" crossorigin="anonymous"></script>
+
+  <!-- jq plugin css  -->
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <!-- Bootstrap CSS CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- Bootstrap download css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- custom css link -->
+  <link rel="title icon" type="img/png" href="img/icons8-library-64.png">
+  <!-- <link rel="shorcut icon" href="img/favicon.ico" /> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css">
+  <title>Royal Library</title>
+</head>
+
+<body>
+  <!-- navbar start -->
+  <!--     <nav class="navigation">
+      <button type="button" class="navbar-toggler hamburger-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </button>
+      <div class="bg-cover">
+        
+      </div>
+    </nav> -->
+  <!-- navbar end -->
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+    <a href="index.html" class=" mx-5 navbar-brand text-light logo">
+      Royal</a>
+    <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+      <div class="bg-light line line1"></div>
+      <div class="bg-light line line2"></div>
+      <div class="bg-light line line3"></div>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#gallery" class="nav-link m-2 menu-item">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="#writers" class="nav-link m-2 menu-item">Writers</a>
+        </li>
+        <li class="nav-item">
+          <a href="#books" class="nav-link m-2 menu-item">books</a>
+        </li>
+        <li class="nav-item">
+          <a href="#pricing" class="nav-link m-2 menu-item">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+
+  <!-- header start -->
+  <header class="d-flex align-items-center">
+    <!-- <div class="align-self-start position-absolute">
+      <a class="logo" href="index.html">
+        <img src="img/book_PNG51100.png" width="90" class="img-fluid mb-5 mt-4 ml-0 ml-5" alt="book"> Royal
+      </a>
+    </div> -->
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="text-light display-1 banner-heading mb-5 ">we <a href="index.html"><img
+                src="img/heart_PNG51352.png" width="180" class="img-fluid" alt="heart"></a> Reading</h1>
+          <a class="btn btnl-lg btn-outline-danger custom-btn text-uppercase px-5 mr-4 mb-5" href="#">Check Out</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- gallery start -->
+  <section id="gallery" class="gallery pb-5">
+    <div class="container">
+      <!-- common title start -->
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="common-title text-uppercase font-italic">The best libraries in the world</h1>
+        </div>
+      </div>
+      <!-- common title end -->
+      <div class="row mb-4 first-row ">
+        <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+          <a href="img/library01.jpg" data-lightbox="library" data-title="Clemmentinum, Prague">
+            <img src="img/library01.jpg" class="img-thumbnail gallery-img" alt="library">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+          <a href="img/library02.jpg" data-lightbox="library" data-title="Trinity College Old Library, Dublin">
+            <img src="img/library02.jpg" class="img-thumbnail gallery-img" alt="library">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+          <a href="img/library03.jpg" data-lightbox="library" data-title="Center library of vancauver, Canada">
+            <img src="img/library03.jpg" class="img-thumbnail gallery-img" alt="library">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+          <a href="img/library04.jpg" data-lightbox="library" data-title="Library of Congress, Washington, D.C.">
+            <img src="img/library04.jpg" class="img-thumbnail gallery-img" alt="library">
+          </a>
+        </div>
+
+      </div>
+      <div class="row mb-5 second-row ">
+        <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+          <a href="img/library05.jpg" data-lightbox="library" data-title="Bibliotheca Alexandrina,Alexwndria, Egypt">
+            <img src="img/library05.jpg" class="img-thumbnail gallery-img" alt="library">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+          <a href="img/library06.jpg" data-lightbox="library" data-title="New York Public Library, NY">
+            <img src="img/library06.jpg" class="img-thumbnail gallery-img" alt="library">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+          <a href="img/library07.jpg" data-lightbox="library" data-title="Maricana Library, Venice">
+            <img src="img/library07.jpg" class="img-thumbnail gallery-img" alt="library">
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-10 mx-auto">
+          <a href="img/library08.jpg" data-lightbox="library" data-title="Seattle Public Library's Central">
+            <img src="img/library08.jpg" class="img-thumbnail gallery-img" alt="library">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- gallery end -->
+
+  <!-- famous writter start -->
+  <section id="writers" class=" famous-writers py-5">
+    <div class="container-fluid">
+      <!-- common title start -->
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="common-title text-uppercase font-italic">The most famous writers</h1>
+        </div>
+      </div>
+      <!-- common title end -->
+      <div class="row justify-content-center">
+        <div class="col-md-4  col-10 text-center align-self-center my-3">
+          <a href="#"><img src="img/writers/William_Shakespeare-book1.jpg" class=" img-fluid rounded" id="book-1"
+              alt="book"></a>
+        </div>
+        <div class="col-md-4 col-10">
+          <div id="accordion" class="writers-accordion">
+            <div class="card">
+              <div class="card-header p-5">
+                <button type="button" id="button-William_Shakespeare" class="btn btn-block btn-outline-danger"
+                  data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                  aria-controls="collapseOne">William Shakespeare</button>
+              </div>
+              <div class="collapse show" data-parent="#accordion" id="collapseOne">
+                <div class="card card-body">
+                  <div class="card"><img src="img/writers/William_Shakespeare.jpg" class="card-img-top img-fluid"
+                      alt="william Shakespeare">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ipsum?</p>
+                      <a href="# " class="btn btn-primary btn-block">More Books
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-5">
+                <button type="button" id="button-Jane_Austen" class="btn btn-block btn-outline-danger"
+                  data-toggle="collapse" data-target="#collapsetwo" aria-expanded="false"
+                  aria-controls="collapsetwo">Jane Auston</button>
+              </div>
+              <div class="collapse" data-parent="#accordion" id="collapsetwo">
+                <div class="card card-body">
+                  <div class="card"><img src="img/writers/Jane_Austen.jpg" class="card-img-top img-fluid"
+                      alt="Jane Auston">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ipsum?</p>
+                      <a href="# " class="btn btn-primary btn-block">More Books
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-5">
+                <button type="button" id="button-Charles_Dickens" class="btn btn-block btn-outline-danger"
+                  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">Charles Dickens</button>
+              </div>
+              <div class="collapse" data-parent="#accordion" id="collapseThree">
+                <div class="card card-body">
+                  <div class="card"><img src="img/writers/Charles_Dickens.jpg" class="card-img-top img-fluid"
+                      alt="Charles_Dickens">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ipsum?</p>
+                      <a href="# " class="btn btn-primary btn-block">More Books
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-5">
+                <button type="button" id="button-Victor_Hugo" class="btn btn-block btn-outline-danger"
+                  data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                  aria-controls="collapseFour">Victor Hugo</button>
+              </div>
+              <div class="collapse" data-parent="#accordion" id="collapseFour">
+                <div class="card card-body">
+                  <div class="card"><img src="img/writers/Vector_Hugo.jpg" class="card-img-top img-fluid"
+                      alt="Victor_Hugo">
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ipsum?</p>
+                      <a href="# " class="btn btn-primary btn-block">More Books
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="my-3">
+            <a href="#" class="btn btn-outline-primary btn-block">More Writers</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-10 text-center align-self-center">
+          <a href="#"><img src="img/writers/William_Shakespeare-book2.jpg" class=" img-fluid rounded" id="book-2"
+              alt="book"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- famous writter end -->
+
+  <!-- suggested books start -->
+  <section id="books" class="suggested-books py-5">
+    <div class=" container-fluid">
+      <!-- common title start -->
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="common-title text-uppercase font-italic">Suggested books for you</h1>
+        </div>
+      </div>
+      <!-- common title end -->
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto  books mb-5">
+          <a href="#"><img src="img/suggested_books/book7.jpg" class="img-fluid  book book1" alt="suggested books"></a>
+          <a href="#"><img src="img/suggested_books/book2.jpg" class="img-fluid  book book2" alt="suggested books"></a>
+          <a href="#"><img src="img/suggested_books/book5.jpg" class="img-fluid  book book3" alt="suggested books"></a>
+          <a href="#"><img src="img/suggested_books/book1.jpeg" class="img-fluid  book book4" alt="suggested books"></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- suggested books end -->
+
+  <!-- popular books start -->
+  <section id="pricing" class="popular-books p-5">
+    <div class="video-container">
+      <video class="bg-video img-fluid" autoplay muted loop>
+        <source src="video/production ID-4860898.mp4">
+        Your browser is not supported this video.
+      </video>
+    </div>
+    <div class="container-fluid">
+      <!-- common title start -->
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="common-title text-uppercase font-italic">The most popular books of week</h1>
+        </div>
+      </div>
+      <!-- common title end -->
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-4 col-sm-8 mx-auto rotate">
+          <div class="card text-center mb-3 book-card mb-5">
+            <div class="card-header text-danger">
+              <h4>A Tale of Two Citites</h4>
+            </div>
+            <div class="card-body">
+              <img src="img/popular_books/pbook1.jpg" class="img-fluid rounded" alt="popular book">
+            </div>
+            <div class="card-footer text-capitalize">
+              By <a href="#">charles dickens</a>
+            </div>
+            <!-- <div class="back">
+            <div class="back-content">
+              <h2 class="text-uppercase font-weight-light font-italic">only for</h2>
+              <h3 class="mb-3">$20</h3>
+              <p><del>$50</del></p>
+              <a href="#" class="btn btn-outline-danger px-4 ">Buy Now</a>
+            </div>
+          </div> -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-8 mx-auto rotate">
+          <div class="card text-center mb-3 book-card mb-5">
+            <div class="card-header text-danger">
+              <h4>Don Quixote</h4>
+            </div>
+            <div class="card-body">
+              <img src="img/popular_books/pbook2.jpg" class="img-fluid rounded" alt="popular book">
+            </div>
+            <div class="card-footer text-capitalize">
+              By <a href="#">Miguel de Cervantes</a>
+            </div>
+            <!--<div class="back">
+            <div class="back-content">
+              <h2 class="text-uppercase font-weight-light font-italic">only for</h2>
+              <h3 class="mb-3">$30</h3>
+              <p><del>$60</del></p>
+              <a href="#" class="btn btn-outline-danger px-4 ">Buy Now</a>
+            </div>
+          </div> -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-8 mx-auto rotate">
+          <div class="card text-center mb-3 book-card mb-5">
+            <div class="card-header text-danger">
+              <h4>100 Years of Solitude</h4>
+            </div>
+            <div class="card-body">
+              <img src="img/popular_books/pbook3.jpg" class="img-fluid rounded" alt="popular book">
+            </div>
+            <div class="card-footer text-capitalize">
+              By <a href="#">Gabriel García Márquez</a>
+            </div>
+            <!--<div class="back">
+            <div class="back-content">
+              <h2 class="text-uppercase font-weight-light font-italic">only for</h2>
+              <h3 class="mb-3">$20</h3>
+              <p><del>$50</del></p>
+              <a href="#" class="btn btn-outline-danger px-4 ">Buy Now</a>
+            </div>
+          </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- popular books end -->
+
+  <!-- contact -->
+  <section id="contact" class="p-5 contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 text-center pb-4">
+
+
+          <h1 class="common-title text-uppercase font-italic">get in touch</h1>
+
+          <form class="contact-form">
+            <div class="form-group py-4">
+              <input type="text" class="form-control my-2 p-2 input" placeholder="Name">
+              <label for="name" class="label">Name</label>
+            </div>
+            <div class="form-group py-4">
+              <input type="email" class="form-control my-2 p-2 input" placeholder="Email Address">
+              <label for="email" class="label">Email Address</label>
+            </div>
+            <div class="form-group py-4 my-4">
+              <input type="checkbox" checked>
+              <label for="check" class="text-muted">Send Announcemets</label>
+            </div>
+            <button type="submit"
+              class="btn btn-block p-2 font-weight-bold text-uppercase submit-button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of contact -->
+
+  <!-- footer -->
+  <footer class="bg-dark px-5 pt-5 ">
+    <div class="container-fluid">
+      <div class="row text-light py-4 text-center mx-auto">
+        <div class="col-lg-4 col-sm-6 text-center text-lg-left mx-auto">
+          <h5 class="pb-3">About Us</h5>
+          <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nobis dicta molestiae id
+            laboriosam natus repudiandae, ducimus illum veritatis perspiciatis possimus, at facere debitis accusantium?
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-6 mx-auto text-center text-lg-left ">
+          <h5 class="pb-3">Visit Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Mission</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Collection</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Gallery</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Customers</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6 mx-auto text-center text-lg-left">
+          <h5 class="pb-3">Need Help?</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="footer-link text-uppercase">Customer Service</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Online Chat</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Support</a>
+            </li>
+            <li>
+              <a href="#" class="text-info">royal@edu.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6 mx-auto text-center text-lg-left">
+          <h5 class="pb-3">Stay Connected</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusamus dolores iste
+            praesentium assumenda est quia accusantium corrupti ipsam inventore.</p>
+          <form class="mb-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <div class="input-group-append">
+                <button type="button" class="btn bg-danger text-white text-uppercase font-weight-bold">Sign Up</button>
+              </div>
+            </div>
+          </form>
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="s-icon fab fa-facebook-square fa-2x"></i></li>
+            <li class="list-inline-item"><i class="s-icon fab fa-google-plus fa-2x "></i></li>
+            <li class="list-inline-item"><i class="s-icon fab fa-instagram fa-2x "></i></li>
+            <li class="list-inline-item"><i class="s-icon fab fa-twitter fa-2x "></i></li>
+            <li class="list-inline-item"><i class="s-icon fab fa-youtube fa-2x"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center text-light border-top pt-3 mx-auto">
+          <p>&copy; 2020 Copyright, All Rights Reserved <a href="https://www.facebook.com/rakib.bhuiyan.330/">Borhan</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS CDN-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- jq plugin -->
+  <script src="js/lightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvpaoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
